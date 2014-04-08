@@ -5,6 +5,7 @@
       <module fileurl="file://$PROJECT_DIR$//Away3D.iml" filepath="$PROJECT_DIR$//Away3D.iml" />
       <module fileurl="file://$PROJECT_DIR$//Feathers.iml" filepath="$PROJECT_DIR$//Feathers.iml" />
       <module fileurl="file://$PROJECT_DIR$/Proto/Proto.iml" filepath="$PROJECT_DIR$/Proto/Proto.iml" />
+      <module fileurl="file://$PROJECT_DIR$//SoundAS.iml" filepath="$PROJECT_DIR$//SoundAS.iml" />
       <module fileurl="file://$PROJECT_DIR$//Starling-Framework.iml" filepath="$PROJECT_DIR$//Starling-Framework.iml" />
     </modules>
   </component>

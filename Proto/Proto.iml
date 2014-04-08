@@ -14,6 +14,9 @@
             <entry module-name="Starling-Framework" build-configuration-name="Starling-Framework">
               <dependency linkage="Merged" />
             </entry>
+            <entry module-name="SoundAS" build-configuration-name="SoundAS">
+              <dependency linkage="Merged" />
+            </entry>
           </entries>
           <sdk name="air_sdk" />
         </dependencies>
@@ -29,6 +32,9 @@
   </component>
   <component name="NewModuleRootManager" inherit-compiler-output="true">
     <exclude-output />
+    <content url="file://$MODULE_DIR$/../Feathers/themes/MinimalMobileTheme">
+      <sourceFolder url="file://$MODULE_DIR$/../Feathers/themes/MinimalMobileTheme/source" isTestSource="false" />
+    </content>
     <content url="file://$MODULE_DIR$">
       <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
     </content>
@@ -37,6 +43,7 @@
     <orderEntry type="module" module-name="Away3D" exported="" />
     <orderEntry type="module" module-name="Starling-Framework" exported="" />
     <orderEntry type="module" module-name="Feathers" exported="" />
+    <orderEntry type="module" module-name="SoundAS" exported="" />
   </component>
 </module>
 

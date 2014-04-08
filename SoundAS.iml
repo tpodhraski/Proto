@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="SoundAS">
+    <configurations>
+      <configuration name="SoundAS" pure-as="true" output-type="Library" output-file="SoundAS.swc" output-folder="$MODULE_DIR$/bin">
+        <dependencies target-player="12.0">
+          <entries>
+            <entry library-id="8d5e8abf-5da1-4b2d-8519-aeba5ed9d55e">
+              <dependency linkage="Merged" />
+            </entry>
+          </entries>
+          <sdk name="air_sdk" />
+        </dependencies>
+        <compiler-options />
+        <packaging-air-desktop />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$/SoundAS">
+      <sourceFolder url="file://$MODULE_DIR$/SoundAS/lib/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air_sdk" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+    <orderEntry type="module-library" exported="">
+      <library type="flex">
+        <properties id="8d5e8abf-5da1-4b2d-8519-aeba5ed9d55e" />
+        <CLASSES>
+          <root url="jar://$MODULE_DIR$/SoundAS/lib/src/libs/as3-signals-v0.8.swc!/" />
+        </CLASSES>
+        <JAVADOC />
+        <SOURCES />
+      </library>
+    </orderEntry>
+  </component>
+</module>
+

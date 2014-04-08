@@ -7,3 +7,6 @@
 [submodule "Away3D"]
 	path = Away3D
 	url = https://github.com/away3d/away3d-core-fp11.git
+[submodule "SoundAS"]
+	path = SoundAS
+	url = https://github.com/treefortress/SoundAS.git
