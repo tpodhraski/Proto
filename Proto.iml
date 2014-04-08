@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<module type="Flex" version="4">
+  <component name="FlexBuildConfigurationManager" active="Proto">
+    <configurations>
+      <configuration name="Proto" target-platform="Desktop" pure-as="true" main-class="proto.Main" output-file="Proto.swf" output-folder="$MODULE_DIR$/bin">
+        <dependencies>
+          <sdk name="air_sdk" />
+        </dependencies>
+        <compiler-options>
+          <option name="additionalOptions" value="-default-size 720 500" />
+        </compiler-options>
+        <packaging-air-desktop use-generated-descriptor="false" custom-descriptor-path="$MODULE_DIR$/Proto.xml" package-file-name="Proto" />
+        <packaging-android />
+        <packaging-ios />
+      </configuration>
+    </configurations>
+    <compiler-options />
+  </component>
+  <component name="NewModuleRootManager" inherit-compiler-output="true">
+    <exclude-output />
+    <content url="file://$MODULE_DIR$">
+      <sourceFolder url="file://$MODULE_DIR$/src" isTestSource="false" />
+    </content>
+    <orderEntry type="jdk" jdkName="air_sdk" jdkType="Flex SDK Type (new)" />
+    <orderEntry type="sourceFolder" forTests="false" />
+  </component>
+</module>
+
