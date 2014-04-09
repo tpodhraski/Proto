@@ -12,6 +12,7 @@ package proto
     import flash.display.StageAlign;
     import flash.display.StageScaleMode;
     import flash.events.Event;
+    import flash.geom.Rectangle;
 
     import proto.Assets;
     import proto.Prototype;
@@ -74,6 +75,17 @@ package proto
             {
                 if (ratio == 1.0) startGame();
             });
+
+            this.stage.addEventListener(flash.events.Event.RESIZE, onResize);
+        }
+
+        private function onResize(event:flash.events.Event):void
+        {
+            _stage3DProxy.width = event.target.stageWidth;
+            _stage3DProxy.height = event.target.stageHeight;
+            _mainStarling.viewPort = new Rectangle(0, 0, _stage3DProxy.width, _stage3DProxy.height);
+            _mainStarling.stage.stageWidth = _stage3DProxy.width;
+            _mainStarling.stage.stageHeight = _stage3DProxy.height;
         }
 
         private function startGame():void
