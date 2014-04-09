@@ -86,6 +86,8 @@ package proto
             _mainStarling.viewPort = new Rectangle(0, 0, _stage3DProxy.width, _stage3DProxy.height);
             _mainStarling.stage.stageWidth = _stage3DProxy.width;
             _mainStarling.stage.stageHeight = _stage3DProxy.height;
+            _away3dView.width = _stage3DProxy.width;
+            _away3dView.height = _stage3DProxy.height;
         }
 
         private function startGame():void
